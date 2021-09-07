@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+
+
+
+/********** barra texto superior **********/
+.header{
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    display: inline-block;   
+}
+
+.muse{
+    display: inline;
+    font-size: 40px;
+    font-weight:bolder ;
+    color:#87336b;
+    text-shadow: 2px 2px #d2a3d0;
+    height: 45px;
+    margin-top: 20px;
+
+}
+/****************************************/
+
+
+
+
+
+
+
+/*************** Capa meio **************/
+.section1{
+    background-image: url(./images/fundo_5.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    overflow: hidden;
+}
+
+.div1{
+    color:black;
+    max-width: 230px;
+    float: right;
+    background-color: #88afdcd7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    font-size: 15px;
+    font-weight: bolder;
+}
+input[type="submit"]:hover{
+    font-size: 15px;
+    font-weight: bolder;
+    background-color: #3b3e81;
+    color: white;
+}
+
+p{
+    font-size: 17px;
+    line-height: 20px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+/* margin bottom */
+/******************************************/
+
+
+
+
+/**************** Footer 1 *************************/
+
+.footer1{
+    color: white;
+}
+
+.disc{
+    /* display: inline-block; */
+    width: 200px;
+    float: left;
+    padding-top: 120px;
+    margin-left: 150px;
+} 
+
+.right_text{
+    /* display: inline-block; */
+    max-width: 550px;
+    padding-top: 160px;
+    margin-left: 400px;
+
+}
+/****************************************************/
+
+
+
+
+
+/********************** Footer 2 *****************/
+
+.footer2{
+    color: white;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.footer2 a{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.footer2 img{
+    width: 50px;
+}
+
+.footer3{
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+/************************************************/
+
+
+
+
+/********************************************************/
+/************************ Responsive ********************/
+/********************************************************/
+
+
+@media screen and (max-width:760px){
+
+.section1{
+    background-image: url(./images/fundo_5.jpg);
+    background-repeat: no-repeat;
+    background-size:120%;
+    overflow: hidden;
+}
+
+.muse{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.div1{
+    max-width: 350px;
+    float: none;
+    padding: 20px;
+    margin: auto;
+    margin-top: 280px;
+}
+
+.disc{
+    display: block;
+    width: 200px;
+    float: none;
+    padding-top: 80px;
+    margin: auto;
+} 
+
+.right_text{
+    display: block;
+    max-width: 350px;
+    padding-top: 25px;
+    margin: auto;
+    text-align: justify;
+}
+
+.right_text h2{
+    text-align: center;
+}
+
+
+}
+/********************************************************/
+/********************************************************/
+/********************************************************/
